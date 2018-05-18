@@ -8,9 +8,11 @@ const TodoSchema = new mongoose.Schema({
   },
   completed:{
     type: Boolean,
+    default: false
   },
   completedAt:{
-    type:Number
+    type:Number,
+    default: null
   }
 });
 const Todo = mongoose.model('Todo', TodoSchema)

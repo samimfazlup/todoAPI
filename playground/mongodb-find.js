@@ -27,4 +27,4 @@ Todo.findById(id).then(todo =>{
   console.log(JSON.stringify(todo, undefined, 2));
 }).catch(e =>{
   console.log(e);
-})
+});
